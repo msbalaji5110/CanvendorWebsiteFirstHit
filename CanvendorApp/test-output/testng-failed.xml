@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Canvendor Website Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Top All Services (failed)">
+    <classes>
+      <class name="testCases.Click_All_Service_Options">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="serviceOptions"/>
+        </methods>
+      </class> <!-- testCases.Click_All_Service_Options -->
+    </classes>
+  </test> <!-- Test Top All Services (failed) -->
+</suite> <!-- Failed suite [Canvendor Website Suite] -->

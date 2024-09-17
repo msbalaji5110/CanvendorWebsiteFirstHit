@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Canvendor Website Suite">
+    <test name="Test Top Navigation Buttons">
+        <classes>
+            <class name="testCases.Click_Top__Navigation_Button" />
+            <!-- Add other test classes here -->
+        </classes>
+    </test>
+    <test name="Test Top All Services ">
+     <classes>
+            <class name="testCases.Click_All_Service_Options" />
+            <!-- Add other test classes here -->
+        </classes>
+    
+    </test>
+    
+</suite>
